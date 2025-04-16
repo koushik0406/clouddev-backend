@@ -9,8 +9,8 @@ app.use(express.json());
 // MySQL connection config
 // triggering azure deployment
 const db = mysql.createConnection({
-  host: 'clouddev-back-1.mysql.database.azure.com',
-  user: 'koushik',
+  host: 'ka-cloudback.mysql.database.azure.com',
+  user: 'koushikmysql',
   password: 'Koushik@1234',
   database: 'studentdb',
   port: 3306,
